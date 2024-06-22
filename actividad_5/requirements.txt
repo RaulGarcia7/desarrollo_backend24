@@ -1,0 +1,5 @@
+django
+djangoframework
+requests
+mysqlclient
+python-decouple
