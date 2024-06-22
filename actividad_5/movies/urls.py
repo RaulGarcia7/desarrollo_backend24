@@ -6,7 +6,6 @@ from .views import (
 )
 from rest_framework.routers import DefaultRouter
 
-# Definición de router para viewsets
 router = DefaultRouter()
 router.register(r'movies', MovieViewSet, basename='movie')
 router.register(r'directors', DirectorViewSet, basename='director')
